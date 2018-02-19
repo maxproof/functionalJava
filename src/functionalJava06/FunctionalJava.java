@@ -5,6 +5,8 @@ import javax.swing.JFrame;
 
 public class FunctionalJava extends JFrame {
 	
+	private static final long serialVersionUID = 1L;
+
 	public FunctionalJava() {
 		JButton myButton = new JButton("click");
 		add(myButton);
